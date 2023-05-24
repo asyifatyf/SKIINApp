@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B34A25F92A1754C300B63D41 /* Build configuration list for PBXProject "yubisayuAllahuakbar" */;
+			buildConfigurationList = B34A25F92A1754C300B63D41 /* Build configuration list for PBXProject "SKIINApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -453,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.yubisayuAllahuakbar";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.SKIINApp";
 				PRODUCT_NAME = SKIIN;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,7 +483,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.yubisayuAllahuakbar";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.SKIINApp";
 				PRODUCT_NAME = SKIIN;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -570,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B34A25F92A1754C300B63D41 /* Build configuration list for PBXProject "yubisayuAllahuakbar" */ = {
+		B34A25F92A1754C300B63D41 /* Build configuration list for PBXProject "SKIINApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B34A26202A1754C300B63D41 /* Debug */,
