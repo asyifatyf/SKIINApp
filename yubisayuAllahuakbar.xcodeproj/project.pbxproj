@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B34A26022A1754C300B63D41 /* yubisayuAllahuakbarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A26012A1754C300B63D41 /* yubisayuAllahuakbarApp.swift */; };
-		B34A26042A1754C300B63D41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A26032A1754C300B63D41 /* ContentView.swift */; };
 		B34A26062A1754C300B63D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34A26052A1754C300B63D41 /* Assets.xcassets */; };
 		B34A26092A1754C300B63D41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34A26082A1754C300B63D41 /* Preview Assets.xcassets */; };
 		B34A26132A1754C300B63D41 /* yubisayuAllahuakbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A26122A1754C300B63D41 /* yubisayuAllahuakbarTests.swift */; };
 		B34A261D2A1754C300B63D41 /* yubisayuAllahuakbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A261C2A1754C300B63D41 /* yubisayuAllahuakbarUITests.swift */; };
 		B34A261F2A1754C300B63D41 /* yubisayuAllahuakbarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A261E2A1754C300B63D41 /* yubisayuAllahuakbarUITestsLaunchTests.swift */; };
+		B34A26302A1867FF00B63D41 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A262F2A1867FF00B63D41 /* ResultView.swift */; };
+		B39833362A1BB2800086A2D3 /* STClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B39833352A1BB27F0086A2D3 /* STClassifier.mlmodel */; };
+		B3BF0A902A1A5013006C883F /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = B3BF0A8F2A1A5013006C883F /* fonts */; };
+		B3E33AEA2A1B28EE0067133E /* CameraCoba.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E33AE92A1B28EE0067133E /* CameraCoba.swift */; };
+		B3FC0D6D2A1D139D006B3A7E /* Result2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0D6C2A1D139D006B3A7E /* Result2View.swift */; };
+		B3FC0D6F2A1D1875006B3A7E /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0D6E2A1D1875006B3A7E /* LandingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B34A25FE2A1754C300B63D41 /* yubisayuAllahuakbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yubisayuAllahuakbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34A25FE2A1754C300B63D41 /* SKIIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKIIN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34A26012A1754C300B63D41 /* yubisayuAllahuakbarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yubisayuAllahuakbarApp.swift; sourceTree = "<group>"; };
-		B34A26032A1754C300B63D41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B34A26052A1754C300B63D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B34A26082A1754C300B63D41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B34A260E2A1754C300B63D41 /* yubisayuAllahuakbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yubisayuAllahuakbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,13 @@
 		B34A26182A1754C300B63D41 /* yubisayuAllahuakbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yubisayuAllahuakbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34A261C2A1754C300B63D41 /* yubisayuAllahuakbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yubisayuAllahuakbarUITests.swift; sourceTree = "<group>"; };
 		B34A261E2A1754C300B63D41 /* yubisayuAllahuakbarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yubisayuAllahuakbarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B34A262F2A1867FF00B63D41 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		B39833352A1BB27F0086A2D3 /* STClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STClassifier.mlmodel; sourceTree = "<group>"; };
+		B3BF0A8E2A1A4F27006C883F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B3BF0A8F2A1A5013006C883F /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		B3E33AE92A1B28EE0067133E /* CameraCoba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCoba.swift; sourceTree = "<group>"; };
+		B3FC0D6C2A1D139D006B3A7E /* Result2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result2View.swift; sourceTree = "<group>"; };
+		B3FC0D6E2A1D1875006B3A7E /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +95,7 @@
 		B34A25FF2A1754C300B63D41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B34A25FE2A1754C300B63D41 /* yubisayuAllahuakbar.app */,
+				B34A25FE2A1754C300B63D41 /* SKIIN.app */,
 				B34A260E2A1754C300B63D41 /* yubisayuAllahuakbarTests.xctest */,
 				B34A26182A1754C300B63D41 /* yubisayuAllahuakbarUITests.xctest */,
 			);
@@ -94,8 +105,14 @@
 		B34A26002A1754C300B63D41 /* yubisayuAllahuakbar */ = {
 			isa = PBXGroup;
 			children = (
+				B3BF0A8F2A1A5013006C883F /* fonts */,
+				B3BF0A8E2A1A4F27006C883F /* Info.plist */,
+				B39833352A1BB27F0086A2D3 /* STClassifier.mlmodel */,
 				B34A26012A1754C300B63D41 /* yubisayuAllahuakbarApp.swift */,
-				B34A26032A1754C300B63D41 /* ContentView.swift */,
+				B3FC0D6E2A1D1875006B3A7E /* LandingPage.swift */,
+				B3E33AE92A1B28EE0067133E /* CameraCoba.swift */,
+				B34A262F2A1867FF00B63D41 /* ResultView.swift */,
+				B3FC0D6C2A1D139D006B3A7E /* Result2View.swift */,
 				B34A26052A1754C300B63D41 /* Assets.xcassets */,
 				B34A26072A1754C300B63D41 /* Preview Content */,
 			);
@@ -144,7 +161,7 @@
 			);
 			name = yubisayuAllahuakbar;
 			productName = yubisayuAllahuakbar;
-			productReference = B34A25FE2A1754C300B63D41 /* yubisayuAllahuakbar.app */;
+			productReference = B34A25FE2A1754C300B63D41 /* SKIIN.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B34A260D2A1754C300B63D41 /* yubisayuAllahuakbarTests */ = {
@@ -231,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BF0A902A1A5013006C883F /* fonts in Resources */,
 				B34A26092A1754C300B63D41 /* Preview Assets.xcassets in Resources */,
 				B34A26062A1754C300B63D41 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B34A26042A1754C300B63D41 /* ContentView.swift in Sources */,
+				B3FC0D6D2A1D139D006B3A7E /* Result2View.swift in Sources */,
+				B39833362A1BB2800086A2D3 /* STClassifier.mlmodel in Sources */,
+				B3FC0D6F2A1D1875006B3A7E /* LandingPage.swift in Sources */,
+				B34A26302A1867FF00B63D41 /* ResultView.swift in Sources */,
 				B34A26022A1754C300B63D41 /* yubisayuAllahuakbarApp.swift in Sources */,
+				B3E33AEA2A1B28EE0067133E /* CameraCoba.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,21 +439,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"yubisayuAllahuakbar/Preview Content\"";
-				DEVELOPMENT_TEAM = 23AZZMTR57;
+				DEVELOPMENT_TEAM = 367Q99JG45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yubisayuAllahuakbar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.yubisayuAllahuakbar";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SKIIN;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,21 +469,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"yubisayuAllahuakbar/Preview Content\"";
-				DEVELOPMENT_TEAM = 23AZZMTR57;
+				DEVELOPMENT_TEAM = 367Q99JG45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yubisayuAllahuakbar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.yubisayuAllahuakbar";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SKIIN;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
