@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B3CCD93E2A1E02AA00D889D5 /* SKIINAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD93D2A1E02AA00D889D5 /* SKIINAppApp.swift */; };
-		B3CCD9402A1E02AA00D889D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD93F2A1E02AA00D889D5 /* ContentView.swift */; };
-		B3CCD9422A1E02AA00D889D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CCD9412A1E02AA00D889D5 /* Assets.xcassets */; };
 		B3CCD9452A1E02AA00D889D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CCD9442A1E02AA00D889D5 /* Preview Assets.xcassets */; };
 		B3CCD94F2A1E02AA00D889D5 /* SKIINAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD94E2A1E02AA00D889D5 /* SKIINAppTests.swift */; };
 		B3CCD9592A1E02AA00D889D5 /* SKIINAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD9582A1E02AA00D889D5 /* SKIINAppUITests.swift */; };
 		B3CCD95B2A1E02AA00D889D5 /* SKIINAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD95A2A1E02AA00D889D5 /* SKIINAppUITestsLaunchTests.swift */; };
+		B3CCD9712A1E030200D889D5 /* CameraCoba.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD9672A1E030100D889D5 /* CameraCoba.swift */; };
+		B3CCD9722A1E030200D889D5 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD9682A1E030100D889D5 /* LandingPage.swift */; };
+		B3CCD9742A1E030200D889D5 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD96A2A1E030100D889D5 /* ResultView.swift */; };
+		B3CCD9752A1E030200D889D5 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = B3CCD96B2A1E030200D889D5 /* fonts */; };
+		B3CCD9762A1E030200D889D5 /* Result2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD96C2A1E030200D889D5 /* Result2View.swift */; };
+		B3CCD9772A1E030200D889D5 /* STClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD96D2A1E030200D889D5 /* STClassifier.mlmodel */; };
+		B3CCD97A2A1E030200D889D5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3CCD9702A1E030200D889D5 /* Info.plist */; };
+		B3CCD97C2A1E033A00D889D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CCD97B2A1E033A00D889D5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +42,20 @@
 /* Begin PBXFileReference section */
 		B3CCD93A2A1E02AA00D889D5 /* SKIINApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKIINApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CCD93D2A1E02AA00D889D5 /* SKIINAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKIINAppApp.swift; sourceTree = "<group>"; };
-		B3CCD93F2A1E02AA00D889D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B3CCD9412A1E02AA00D889D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3CCD9442A1E02AA00D889D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3CCD94A2A1E02AA00D889D5 /* SKIINAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKIINAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CCD94E2A1E02AA00D889D5 /* SKIINAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKIINAppTests.swift; sourceTree = "<group>"; };
 		B3CCD9542A1E02AA00D889D5 /* SKIINAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKIINAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CCD9582A1E02AA00D889D5 /* SKIINAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKIINAppUITests.swift; sourceTree = "<group>"; };
 		B3CCD95A2A1E02AA00D889D5 /* SKIINAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKIINAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3CCD9672A1E030100D889D5 /* CameraCoba.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCoba.swift; sourceTree = "<group>"; };
+		B3CCD9682A1E030100D889D5 /* LandingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		B3CCD96A2A1E030100D889D5 /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		B3CCD96B2A1E030200D889D5 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		B3CCD96C2A1E030200D889D5 /* Result2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result2View.swift; sourceTree = "<group>"; };
+		B3CCD96D2A1E030200D889D5 /* STClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STClassifier.mlmodel; sourceTree = "<group>"; };
+		B3CCD9702A1E030200D889D5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CCD97B2A1E033A00D889D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../yubisayuAllahuakbar/yubisayuAllahuakbar/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +106,15 @@
 		B3CCD93C2A1E02AA00D889D5 /* SKIINApp */ = {
 			isa = PBXGroup;
 			children = (
+				B3CCD96B2A1E030200D889D5 /* fonts */,
 				B3CCD93D2A1E02AA00D889D5 /* SKIINAppApp.swift */,
-				B3CCD93F2A1E02AA00D889D5 /* ContentView.swift */,
-				B3CCD9412A1E02AA00D889D5 /* Assets.xcassets */,
+				B3CCD9672A1E030100D889D5 /* CameraCoba.swift */,
+				B3CCD9682A1E030100D889D5 /* LandingPage.swift */,
+				B3CCD96C2A1E030200D889D5 /* Result2View.swift */,
+				B3CCD96A2A1E030100D889D5 /* ResultView.swift */,
+				B3CCD9702A1E030200D889D5 /* Info.plist */,
+				B3CCD96D2A1E030200D889D5 /* STClassifier.mlmodel */,
+				B3CCD97B2A1E033A00D889D5 /* Assets.xcassets */,
 				B3CCD9432A1E02AA00D889D5 /* Preview Content */,
 			);
 			path = SKIINApp;
@@ -232,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3CCD9452A1E02AA00D889D5 /* Preview Assets.xcassets in Resources */,
-				B3CCD9422A1E02AA00D889D5 /* Assets.xcassets in Resources */,
+				B3CCD97A2A1E030200D889D5 /* Info.plist in Resources */,
+				B3CCD9752A1E030200D889D5 /* fonts in Resources */,
+				B3CCD97C2A1E033A00D889D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3CCD9402A1E02AA00D889D5 /* ContentView.swift in Sources */,
 				B3CCD93E2A1E02AA00D889D5 /* SKIINAppApp.swift in Sources */,
+				B3CCD9742A1E030200D889D5 /* ResultView.swift in Sources */,
+				B3CCD9722A1E030200D889D5 /* LandingPage.swift in Sources */,
+				B3CCD9772A1E030200D889D5 /* STClassifier.mlmodel in Sources */,
+				B3CCD9762A1E030200D889D5 /* Result2View.swift in Sources */,
+				B3CCD9712A1E030200D889D5 /* CameraCoba.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
