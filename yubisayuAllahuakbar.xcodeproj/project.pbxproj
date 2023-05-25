@@ -14,10 +14,10 @@
 		B34A261D2A1754C300B63D41 /* yubisayuAllahuakbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A261C2A1754C300B63D41 /* yubisayuAllahuakbarUITests.swift */; };
 		B34A261F2A1754C300B63D41 /* yubisayuAllahuakbarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A261E2A1754C300B63D41 /* yubisayuAllahuakbarUITestsLaunchTests.swift */; };
 		B34A26302A1867FF00B63D41 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A262F2A1867FF00B63D41 /* ResultView.swift */; };
+		B35397692A1F1B0100C52492 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35397682A1F1B0100C52492 /* InfoPage.swift */; };
 		B39833362A1BB2800086A2D3 /* STClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B39833352A1BB27F0086A2D3 /* STClassifier.mlmodel */; };
 		B3BF0A902A1A5013006C883F /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = B3BF0A8F2A1A5013006C883F /* fonts */; };
 		B3E33AEA2A1B28EE0067133E /* CameraCoba.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E33AE92A1B28EE0067133E /* CameraCoba.swift */; };
-		B3FC0D6D2A1D139D006B3A7E /* Result2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0D6C2A1D139D006B3A7E /* Result2View.swift */; };
 		B3FC0D6F2A1D1875006B3A7E /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0D6E2A1D1875006B3A7E /* LandingPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,11 +49,11 @@
 		B34A261C2A1754C300B63D41 /* yubisayuAllahuakbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yubisayuAllahuakbarUITests.swift; sourceTree = "<group>"; };
 		B34A261E2A1754C300B63D41 /* yubisayuAllahuakbarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yubisayuAllahuakbarUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B34A262F2A1867FF00B63D41 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		B35397682A1F1B0100C52492 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
 		B39833352A1BB27F0086A2D3 /* STClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STClassifier.mlmodel; sourceTree = "<group>"; };
 		B3BF0A8E2A1A4F27006C883F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B3BF0A8F2A1A5013006C883F /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		B3E33AE92A1B28EE0067133E /* CameraCoba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCoba.swift; sourceTree = "<group>"; };
-		B3FC0D6C2A1D139D006B3A7E /* Result2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result2View.swift; sourceTree = "<group>"; };
 		B3FC0D6E2A1D1875006B3A7E /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,7 +112,7 @@
 				B3FC0D6E2A1D1875006B3A7E /* LandingPage.swift */,
 				B3E33AE92A1B28EE0067133E /* CameraCoba.swift */,
 				B34A262F2A1867FF00B63D41 /* ResultView.swift */,
-				B3FC0D6C2A1D139D006B3A7E /* Result2View.swift */,
+				B35397682A1F1B0100C52492 /* InfoPage.swift */,
 				B34A26052A1754C300B63D41 /* Assets.xcassets */,
 				B34A26072A1754C300B63D41 /* Preview Content */,
 			);
@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B34A25F92A1754C300B63D41 /* Build configuration list for PBXProject "SKIINApp" */;
+			buildConfigurationList = B34A25F92A1754C300B63D41 /* Build configuration list for PBXProject "yubisayuAllahuakbar" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -275,8 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FC0D6D2A1D139D006B3A7E /* Result2View.swift in Sources */,
 				B39833362A1BB2800086A2D3 /* STClassifier.mlmodel in Sources */,
+				B35397692A1F1B0100C52492 /* InfoPage.swift in Sources */,
 				B3FC0D6F2A1D1875006B3A7E /* LandingPage.swift in Sources */,
 				B34A26302A1867FF00B63D41 /* ResultView.swift in Sources */,
 				B34A26022A1754C300B63D41 /* yubisayuAllahuakbarApp.swift in Sources */,
@@ -570,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B34A25F92A1754C300B63D41 /* Build configuration list for PBXProject "SKIINApp" */ = {
+		B34A25F92A1754C300B63D41 /* Build configuration list for PBXProject "yubisayuAllahuakbar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B34A26202A1754C300B63D41 /* Debug */,

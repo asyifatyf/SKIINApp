@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct ResultView: View {
-//    @Binding var result: String
-//    @Binding var camera: CameraModel
-   
+    
     @State var result1 : String = ""
     @StateObject var camera : CameraModel
-    
+    @State private var isPresented = false
+    @State var classificationResult: String = ""
     
     var body: some View {
         NavigationView{
@@ -60,13 +59,13 @@ struct ResultView: View {
                             .fontWeight(.bold)
                         
                         if result1 == "oily" {
-                            Text("gel / non-comedogenic")
+                            Text("gel                               ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         } else if result1 == "dry"{
-                            Text("cream / non-alkohol   ")
+                            Text("cream                             ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         } else {
-                            Text("gel / non-comedogenic")
+                            Text("gel                               ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         }
                     }
@@ -91,16 +90,37 @@ struct ResultView: View {
                     }
                 }
                 
-                NavigationLink(destination:CameraCoba())
-                {
-                    Image("Back")
+                HStack {
+                    NavigationLink(destination:CameraCoba())
+                    {
+                        Image("Back")
+                        
+                    }
+                    .onTapGesture {
+                        camera.reTake()
+                    }
+                    
+                    Button(action: {
+                        isPresented = true
+                    }) {
+                        Image(systemName: "questionmark.app.fill")
+                            .resizable()
+                            .foregroundColor(.black)
+                            .frame(width: 35, height: 35)
+                            .onChange(of: camera.alert, perform: { newValue in
+                                camera.takePic()
+                            })
+                    }
+                    .sheet(isPresented: $isPresented) {
+                        ScrollView {
+                            InfoPage(result1: result1)
+                                .padding()
+                        }
+                    }
+                    }
+                    .onAppear{
+                        result1 = camera.result
                 }
-                .onTapGesture {
-                camera.reTake()
-                }
-            }
-            .onAppear{
-                result1 = camera.result
             }
         }
         .navigationBarBackButtonHidden(true)

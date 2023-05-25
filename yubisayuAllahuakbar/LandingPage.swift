@@ -11,7 +11,7 @@ struct LandingPage: View {
     var body: some View {
         NavigationView{
             ZStack{
-                Image("bgLP")
+                Image("bg2")
                 
                 NavigationLink(destination:CameraCoba()){
                     Image("arr")

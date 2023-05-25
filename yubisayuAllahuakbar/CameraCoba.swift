@@ -5,7 +5,6 @@
 //  Created by Asyifa Tasya Fadilah on 22/05/23.
 //
 
-
 import SwiftUI
 import AVFoundation
 import Vision
@@ -98,6 +97,7 @@ class CameraModel: NSObject, ObservableObject, AVCapturePhotoCaptureDelegate{
     @Published var picData = Data(count:0)
     @Published var imageClassifierInstance = ImageClassifier()
     @Published var result : String = ""
+    
     func Check(){
         switch AVCaptureDevice.authorizationStatus(for: .video){
         case.authorized:
@@ -146,7 +146,6 @@ class CameraModel: NSObject, ObservableObject, AVCapturePhotoCaptureDelegate{
             withAnimation{
                 self.isTaken.toggle()}
         }
-
     }
     
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
@@ -162,7 +161,6 @@ class CameraModel: NSObject, ObservableObject, AVCapturePhotoCaptureDelegate{
         
         self.imageClassifierInstance.processImage(for: ciImage)
         self.result = imageClassifierInstance.result
-
     }
     
     func reTake(){
@@ -255,6 +253,5 @@ struct CameraPreview: UIViewRepresentable{
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {
-        
     }
 }
