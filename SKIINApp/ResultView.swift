@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct ResultView: View {
-//    @Binding var result: String
-//    @Binding var camera: CameraModel
-   
+    //    @Binding var result: String
+    //    @Binding var camera: CameraModel
+    
     @State var result1 : String = ""
     @StateObject var camera : CameraModel
+    @State private var isPresented = false
     
     
     var body: some View {
@@ -35,16 +36,16 @@ struct ResultView: View {
                     Image("Clean")
                         .padding()
                     VStack {
-                        Text("Cleanser                     ")
+                        Text("Cleanser                   ")
                             .font(Font.custom("InstantHarmonyDEMO-Regular", size: 30))
                         if result1 == "oily" {
-                            Text("facial foam                    ")
+                            Text("facial foam                                ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         } else if result1 == "dry"{
-                            Text("facial wash                    ")
+                            Text("facial wash                                ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         } else {
-                            Text("facial foam                    ")
+                            Text("facial foam                                ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                             
                         }
@@ -60,13 +61,13 @@ struct ResultView: View {
                             .fontWeight(.bold)
                         
                         if result1 == "oily" {
-                            Text("gel / non-comedogenic")
+                            Text("gel                                            ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         } else if result1 == "dry"{
-                            Text("cream / non-alkohol   ")
+                            Text("cream                                       ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         } else {
-                            Text("gel / non-comedogenic")
+                            Text("cream                                       ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         }
                     }
@@ -76,34 +77,53 @@ struct ResultView: View {
                     Image("Sunscreen")
                         .padding()
                     VStack {
-                        Text("Sunscreen                  ")
+                        Text("Sunscreen               ")
                             .font(Font.custom("InstantHarmonyDEMO-Regular", size: 30))
                         if result1 == "oily" {
-                            Text("physical                       ")
+                            Text("physical                                 ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         } else if result1 == "dry"{
-                            Text("chemical                       ")
+                            Text("chemical                                 ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         } else {
-                            Text("chemical                       ")
+                            Text("chemical                                 ")
                                 .font(Font.custom("HiraginoSansGB-W6", size: 20))
                         }
                     }
                 }
                 
-                NavigationLink(destination:CameraCoba())
-                {
-                    Image("Back")
+                HStack {
+                    NavigationLink(destination:CameraCoba())
+                    {
+                        Image("Back")
+         //                   .offset(x:25)
+                    }
+                    .onTapGesture {
+                        camera.reTake()
+                    }
+                    
+                    Button(action: {
+                        isPresented = true
+                    }) {
+                        Image(systemName: "questionmark.app.fill")
+                            .resizable()
+                            .foregroundColor(.black)
+                            .frame(width: 35, height: 35)
+        //                    .offset(x:50)
+                    }
+                    .sheet(isPresented: $isPresented) {
+                        ScrollView {
+                            InfoPage()
+                                .padding()
+                        }
+                    }
                 }
-                .onTapGesture {
-                camera.reTake()
+                .onAppear{
+                    result1 = camera.result
                 }
             }
-            .onAppear{
-                result1 = camera.result
-            }
+            .navigationBarBackButtonHidden(true)
         }
-        .navigationBarBackButtonHidden(true)
     }
 }
 
