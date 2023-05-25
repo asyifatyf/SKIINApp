@@ -96,7 +96,7 @@ struct ResultView: View {
                     NavigationLink(destination:CameraCoba())
                     {
                         Image("Back")
-         //                   .offset(x:25)
+   
                     }
                     .onTapGesture {
                         camera.reTake()
@@ -109,11 +109,13 @@ struct ResultView: View {
                             .resizable()
                             .foregroundColor(.black)
                             .frame(width: 35, height: 35)
-        //                    .offset(x:50)
+                            .onChange(of: camera.alert, perform: { newValue in
+                                camera.takePic()
+                            })
                     }
                     .sheet(isPresented: $isPresented) {
                         ScrollView {
-                            InfoPage()
+                            InfoPage(result1: result1)
                                 .padding()
                         }
                     }
