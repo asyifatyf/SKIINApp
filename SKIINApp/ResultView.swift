@@ -1,6 +1,5 @@
 //
 //  ResultView.swift
-//  yubisayuAllahuakbar
 //
 //  Created by Asyifa Tasya Fadilah on 20/05/23.
 //
